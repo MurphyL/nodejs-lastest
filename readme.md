@@ -1,7 +1,7 @@
 # Node.js Docker
 
 ```raw
-/usr/murph
+/usr/murph  # 工作目录
 ```
 
 
