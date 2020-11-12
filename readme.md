@@ -2,6 +2,7 @@
 
 ```sh
 /usr/murph  # 工作目录
+docker build -t nodejs-run:v0.1 .
 ```
 
 
