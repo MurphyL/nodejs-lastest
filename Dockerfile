@@ -11,8 +11,3 @@ RUN sed -i "s/${ALPINE_SOURCE}/${ALPINE_MIRROR}/g" /etc/apk/repositories; \
 	apk update && apk add nodejs npm; \
 	npm config set registry ${TAOBAO_REGISTRY}
 
-EXPOSE 3000
-
-ENTRYPOINT ["npm", "run"]
-
-CMD ["serve"]
